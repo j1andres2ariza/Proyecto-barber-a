@@ -1,7 +1,7 @@
 <!-- PHP INCLUDES -->
 
 <?php
-
+ 
 include "connect.php";
 include "Includes/templates/header.php";
 include "Includes/templates/navbar.php";

@@ -18,7 +18,7 @@
                     </ul>
                 </div>
                 <div class="header-btn" style="margin-left:10px">
-                    <a href="appointment.php" class="menu-btn">Reservar una Cita</a>
+                    <a href="appointment.php" class="menu-btn">Reservar Cita</a>
                 </div>
             </div>
             <a class="mob-menu-toggle">
