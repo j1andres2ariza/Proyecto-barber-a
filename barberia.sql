@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 30-05-2025 a las 00:53:23
+-- Tiempo de generación: 04-06-2025 a las 19:26:23
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -70,7 +70,8 @@ CREATE TABLE `barber_admin` (
 --
 
 INSERT INTO `barber_admin` (`admin_id`, `username`, `email`, `full_name`, `password`) VALUES
-(1, 'configuroweb', 'hola@configuroweb.com', 'Mauricio Sevilla', 'ad4bedc9f4f98e0513315bcfd543e4f8e2c00a77');
+(1, 'juan-ariza', 'juanariza@gmail.com', 'Juan Ariza', '96071ca0a58c74851516126ccb9f1c52e77a68bc'),
+(2, 'jeisongarcia', 'jeisongarcia@correo.com', 'jeison garcia', '237df816bfa7ec3152fbcbf8cef287a3120eab67');
 
 -- --------------------------------------------------------
 
@@ -190,7 +191,7 @@ CREATE TABLE `services` (
 --
 
 INSERT INTO `services` (`service_id`, `service_name`, `service_description`, `service_price`, `service_duration`, `category_id`) VALUES
-(1, 'Corte de Cabello', 'El peluquero es una persona cuya ocupación es principalmente cortar, vestir al estilo del novio y afeitar a los hombres.', 21.00, 20, 6),
+(1, 'Corte de Cabello', 'El peluquero es una persona cuya ocupación es principalmente cortar, vestir al estilo del novio y afeitar a los hombres.', 17.00, 30, 6),
 (2, 'Peinado', 'El peluquero es una persona cuya ocupación es principalmente cortar, vestir al estilo del novio y afeitar a los hombres.', 9.00, 15, 6),
 (3, 'Recorte de cabello', 'El peluquero es una persona cuya ocupación es principalmente cortar, vestir al estilo del novio y afeitar a los hombres.', 10.00, 10, 6),
 (4, 'Afeitado Limpio', 'El peluquero es una persona cuya ocupación es principalmente cortar, vestir al estilo del novio y afeitar a los hombres.', 20.00, 20, 2),
@@ -318,7 +319,7 @@ ALTER TABLE `appointments`
 -- AUTO_INCREMENT de la tabla `barber_admin`
 --
 ALTER TABLE `barber_admin`
-  MODIFY `admin_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `admin_id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de la tabla `clients`
